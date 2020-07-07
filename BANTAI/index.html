@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon-logo/logo-min.ico" type="image/x-icon">
+  <title>B.A.N.T.A.I - Bandung Extraordinary Community</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="css/loading.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/loading.css">
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loader_bg">
+    <div class="loader">
+      <img src="img/icon-logo/loader.png" alt="">
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container">
+      <div class="logo">
+        <a href="#">B.A.N.T.A.I</a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="index.html" class="active-nav">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+
+  <section class="home">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/main-image/IMG_8551.JPG" alt="Los Angeles" width="1000" height="500">
+          <div class="carousel-content">
+            <p>Lorem, ipsum., <br> Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/main-image/Untitled-5-01.png" alt="Chicago" width="1000" height="500">
+          <div class="carousel-content">
+            <p>Play for pleased, <br> point Aim Shoot!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/main-image/DSC09126.JPG" alt="New York" width="1000" height="500">
+          <div class="carousel-content">
+            <p>Lorem, ipsum dolor., <br> Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <i class="fa fa-caret-left" aria-hidden="true" style="font-size: 45px;color: #e0b278;"></i>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <i class="fa fa-caret-right" aria-hidden="true" style="font-size: 45px;color: #e0b278;"></i>
+      </a>
+    </div>
+  </section>
+
+
+
+  <div class="footer">
+    <h1>BANTAI AIRSOFT GUN 2020</h1>
+  </div>
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+
+
+  </script>
+</body>
+
+</html>

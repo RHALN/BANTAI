@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+
+html,body {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+/*-- Inspiration taken from abdo steif -->
+/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
+/* Navbar section */
+
+
+.nav {
+    width: 100%;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    background-color: #111;
+    height: 65px;
+    z-index: 999;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #e0b278;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.nav div.logo a::after {
+    content: " Bandung Extraordinary Airsoft Community";
+    text-decoration: none;
+    color: #e0b278;
+    font-size: 1.1rem;
+    margin-top: -45px;
+    padding-left: 1px;
+}
+
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 2.4rem;
+    padding: 5px 35px;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #ceac88;
+}
+
+.active-nav {
+    background-color: #eba86086;
+    border-radius: 10px;
+}
+
+
+/* Home section */
+
+.home {
+    width: 100%;
+    height: 9vh;
+}
+
+.home .text {
+    padding: 200px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.home .text h1{
+    font-weight: bold;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 2px 2px #414037;
+    letter-spacing: 10px;
+}
+
+.navTrigger {
+    display: none;
+}
+
+
+/* Main */
+.main {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.main .content-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.main .content-1 .lay-1 {
+    flex: 5;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.main .content-1 .lay-1 img {
+    width: 230px;
+    height: 200px;
+    padding: 10px;
+}
+
+.main .content-1 .lay-2 {
+    flex: 5;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.main .content-1 .lay-2 img{
+    width: 460px;
+    height: 400px;
+    padding: 10px;
+}
+
+.main .content-1 .lay-4 {
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.main .content-1 .lay-4 img {
+    width: 230px;
+    height: 200px;
+    padding: 10px;
+}
+
+.main .content-1 .lay-3 {
+    flex: 5;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: stretch;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.main .content-1 .lay-3 img{
+    width: 460px;
+    height: 400px;
+    padding: 10px;
+}
+
+.main .lay-1 img {
+    outline: 100px solid rgba(255, 255, 255, 0.239) !important;
+    outline-offset: -110px;
+}
+
+.main .lay-2 img {
+    outline: 200px solid rgba(255, 255, 255, 0.239) !important;
+    outline-offset: -200px;
+}
+
+.main .lay-3 img {
+    outline: 200px solid rgba(255, 255, 255, 0.239) !important;
+    outline-offset: -200px;
+}
+
+.main .lay-4 img {
+    outline: 100px solid rgba(255, 255, 255, 0.239) !important;
+    outline-offset: -110px;
+}
+
+.main .lay-1 img:hover {
+    outline: 100px solid rgba(255, 255, 255, 0) !important;
+    outline-offset: -110px;
+}
+
+.main .lay-2 img:hover {
+    outline: 200px solid rgba(255, 255, 255, 0) !important;
+    outline-offset: -200px;
+}
+
+.main .lay-3 img:hover {
+    outline: 200px solid rgba(255, 255, 255, 0) !important;
+    outline-offset: -200px;
+}
+
+.main .lay-4 img:hover {
+    outline: 100px solid rgba(255, 255, 255, 0) !important;
+    outline-offset: -110px;
+}
+
+
+
+/* Media qurey section */
+
+@media screen and (min-width: 1000px) and (max-width: 1024px) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .navTrigger {
+        display: block;
+    }
+    .nav div.logo {
+        margin-left: 15px;
+    }
+    .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    .nav div.show_list {
+        height: 500px;
+        width: 100%;
+        display: none;
+    }
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        padding-top: 100px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        /*same background color of navbar*/
+        background-position: center top;
+    }
+    .nav div.main_list ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+    .nav div.media_button {
+        display: block;
+    }
+    .main .content-1 .lay-1 img {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        
+    }
+    .main .content-1 .lay-2 img{
+        width: 500px;
+        height: auto;
+        padding: 10px;
+    }
+    .main .content-1 .lay-4 img {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        
+    }
+    .main .content-1 .lay-3 img{
+        width: 500px;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+
+/* Animation */
+/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
+
+.navTrigger {
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+}
+
+.navTrigger i {
+    background-color: #fff;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+}
+
+.navTrigger i:nth-child(1) {
+    -webkit-animation: outT 0.8s backwards;
+    animation: outT 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(2) {
+    margin: 5px 0;
+    -webkit-animation: outM 0.8s backwards;
+    animation: outM 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+.navTrigger i:nth-child(3) {
+    -webkit-animation: outBtm 0.8s backwards;
+    animation: outBtm 0.8s backwards;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+}
+
+
+.affix {
+    padding: 0;
+    background-color: #111;
+    height: 65px;
+    z-index: 999;
+}
+
+.myH2 {
+    font-size: 5rem;
+    color: #ff8c00;
+    font-weight: bold;
+    text-align: center;
+}
+
+.myH4 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: italic;
+}
+
+.myP {
+    font-style: italic;
+	font-size: 1.8rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media all and (max-width:700px){
+	.myP {
+		padding:2%;
+    }
+
+}

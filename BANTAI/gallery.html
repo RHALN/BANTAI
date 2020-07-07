@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon-logo/logo-min.ico" type="image/x-icon">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/loading.css">
+  <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+
+<body>
+  <div class="loader_bg">
+    <div class="loader">
+      <img src="img/icon-logo/loader.png" alt="">
+    </div>
+  </div>
+  
+  <nav class="nav">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">B.A.N.T.A.I</a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="gallery.html" class="active-nav">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+
+  <section class="home">
+    
+  </section>
+
+
+  <div class="main">
+    <h2 class="myH2">SUKIR</h2>
+    <div class="content-1">
+        <div class="lay-1">
+            <img src="img/foto-galeri/Untitled-5-17.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-25.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-18.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-26.png" alt="">
+        </div>
+        <div class="lay-2">
+            <img src="img/foto-galeri/Untitled-5-14.png" alt="">
+        </div>
+    </div>
+    <div class="content-1">
+        <div class="lay-3">
+            <img src="img/foto-galeri/Untitled-5-13.png" alt="">
+        </div>
+        <div class="lay-4">
+            <img src="img/foto-galeri/Untitled-5-17.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-19.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-28.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-20.png" alt="">
+        </div>
+    </div>
+
+    <h2 class="myH2" style="margin-top: 80px;">EVENT</h2>
+    <div class="content-1">
+        <div class="lay-1">
+            <img src="img/foto-galeri/Untitled-5-21.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-30.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-22.png" alt="">
+            <img src="img/foto-galeri/GOPR1579-01.jpeg" alt="">
+        </div>
+        <div class="lay-2">
+            <img src="img/foto-galeri/Untitled-5-16.png" alt="">
+        </div>
+    </div>
+    <div class="content-1">
+        <div class="lay-3">
+            <img src="img/foto-galeri/Untitled-5-15.png" alt="">
+        </div>
+        <div class="lay-4">
+            <img src="img/foto-galeri/Untitled-5-31.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-23.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-32.png" alt="">
+            <img src="img/foto-galeri/Untitled-5-24.png" alt="">
+        </div>
+    </div>
+
+  <!-- FOOTER -->
+  <div class="footer" style="margin-top: 40px;">
+    <h1>BANTAI AIRSOFT GUN 2020</h1>
+  </div>
+
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+  </script>
+</body>
+</html>

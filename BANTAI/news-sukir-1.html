@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon-logo/logo-min.ico" type="image/x-icon">
+  <title>Sukir - 22.12.19</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/loading.css">
+  <link rel="stylesheet" type="text/css" href="css/news-content-2.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+
+<body>
+  <div class="loader_bg">
+    <div class="loader">
+      <img src="img/icon-logo/loader.png" alt="">
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">B.A.N.T.A.I</a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html" class="active-nav">News</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+
+  <section class="home">
+    
+  </section>
+
+
+  <div class="main">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-end">
+                <li class="breadcrumb-item"><a href="news.html">News</a></li>
+                <li class="breadcrumb-item"><a href="news-sukir.html">Sukir</a></li>
+                <li class="breadcrumb-item active" aria-current="page">22.12.19</li>
+            </ol></nav>
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-6" style="padding: 50px;">
+                  <img src="img/news/isi sukir.png" class="card-img" height="100%">
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <div class="card-body-1">
+                      <h2 class="myH2">22.12.2019</h2>
+                      <p class="myP">Yang hari minggunya ga ada
+                        kegiatan ataupun bosan di rumah
+                        Yu sukir bareng sama kita</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <h1>BANTAI AIRSOFT GUN 2020</h1>
+  </div>
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon-logo/logo-min.ico" type="image/x-icon">
+  <title>About Us</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/loading.css">
+  <link rel="stylesheet" type="text/css" href="css/about.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+
+<body>
+  <div class="loader_bg">
+    <div class="loader">
+      <img src="img/icon-logo/loader.png" alt="">
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">B.A.N.T.A.I</a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active-nav">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+
+  <section class="home">
+    <div class="text">
+      <h1>ABOUT US</h1>
+    </div>
+  </section>
+
+
+  <div class="main">
+
+    <h2 class="myH2">BANTAI ADALAH</h2>
+    <p class="myP">
+      Bantai adalah salah satu club airsoft gun di domisili bandung jawabarat. Bantai berdiri tahun 2008 club ini
+      dulu
+      bernama LBA, 1 Tahun kemudian berkembang dan berganti nama menjadi B.A.N.T.A.I <b>(Bandung Extraordinary
+        Airsoft Community)</b> sampai sekarang, Bantai juga adalah salah satu club yang bernaung pada PERSATUAN
+      OLAHRAGA AIRSOFT SELURUH INDONESIA ( PORGASI). Kegiatan yang dilaksanakan oleh bantai antara lain kopdar,
+      sukir, mengadakan sosialisasi airsoftgun, dan latihan untuk kompetisi yang akan datang. Tempat yang
+      berlokasi
+      BANTAI BATTLEGROUND Jl.A.H Nasution No.924
+    </p>
+
+    <h2 class="myH2">VISI & MISI</h2>
+    <br />
+    <p class="myH4">Visi</p>
+    <p class="myP">
+      menampung aspirasi, membina, melakukan koordinasi,
+      serta pengawasan terhadap seluruh anggota dalam menjalankan kegiatan olahraga dan pertandingan airsoftgun
+    </p>
+    <br />
+    <p class="myH4">Misi</p>
+    <p class="myP">
+      menjalin dan mempererat rasa kekeluargaan yang harmonis antara sesama pecinta olahraga Airsoftgun khususnya
+      di wilayah bandung. Memberikan bimbingan dan arahan terhadap anggota organisasi
+    </p>
+
+    <img src="img/icon-logo/Untitled-5-12.png" class="rounded mx-auto d-block"
+      style="width: 200px;height: 200px;margin-top: 40px;">
+    <p class="myH2" style="margin-top: 0;">PENDIRI</p>
+    <p class="myP"><i>
+        Adyatnika dock <br>
+        Ale <br>
+        Arief fadhillah <br>
+        Krishna <br>
+        Rienky bayu <br>
+        Verdi <br>
+        Zulkarnain abdul muis <br>
+      </i></p>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <h1>BANTAI AIRSOFT GUN 2020</h1>
+  </div>
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+  </script>
+</body>
+
+</html>

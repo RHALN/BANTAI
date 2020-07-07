@@ -1,0 +1,14 @@
+/* Footer */
+.footer {
+    margin-bottom: -0;
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    color: #e0b278;
+    text-align: center;
+    padding: 10px;
+ }
+
+ .footer h1 {
+     font-weight: bold;
+ }

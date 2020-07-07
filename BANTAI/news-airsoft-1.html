@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon-logo/logo-min.ico" type="image/x-icon">
+  <title>Airsoft Gun - Sejarah</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/loading.css">
+  <link rel="stylesheet" type="text/css" href="css/news-content-1.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loader_bg">
+    <div class="loader">
+      <img src="img/icon-logo/loader.png" alt="">
+    </div>
+  </div>
+  <nav class="nav">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">B.A.N.T.A.I</a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html" class="active-nav">News</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+
+  <section class="home">
+    
+  </section>
+
+
+  <div class="main">
+
+    <div class="content-1" style="background-image: url(img/main-image/Untitled-5-06.png);">
+    
+    </div>
+    <div class="content-2">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-end">
+                <li class="breadcrumb-item"><a href="news.html">News</a></li>
+                <li class="breadcrumb-item"><a href="news-airsoft.html">Airsoft Gun</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Sejarah</li>
+            </ol>
+        </nav>
+    
+        <h2 class="myH2">Sejarah Airsoft Gun</h2>
+        <p class="myP">
+            Airsoft adalah sebuah olahraga atau permainan mensimulasikan kegiatan
+            militer atau kepolisian, yang menggunakan replika senjata api yang disebut airsoft
+            gun.
+            Permainan airsoft awalnya dimulai di Jepang pada tahun 1970-an, dimana
+            kepemilikan senjata api sangat sulit atau tidak mungkin untuk didapatkan karena
+            ketatnya peraturan, kemudian para pencinta senjata lalu mencari alternatif yang
+            legal untuk melakukan hobi mereka. Dan sekarang kegiatan airsoft paling populer di
+            Jepang, Tiongkok, Hong Kong, Taiwan, Macau, Korea Selatan, dan juga menyebar ke
+            Filipina dan Indonesia. <br> <br>
+            Permainan airsoft juga sudah mulai populer di Amerika Utara dan Eropa, khususnya
+            di Amerika Serikat, Kanada, Inggris, Jerman, Austria, Swiss, Prancis, Spanyol,
+            Polandia, Portugal, Swedia, Finlandia, Norwegia, Italia, Belgia (yang didatangi
+            pemain dari Belanda karena di negara mereka airsoft ilegal), Denmark, dan Chili,
+            dan semakin menyebar didukung dengan komunitas Internet yang aktif. <br> <br>
+            Airsoftgun / airsoft gun diciptakan untuk memenuhi hasrat pecinta senjata (positif)
+            untuk mengalami pengalaman menembakkan senjata yang relatif aman untuk
+            pengguna individu dan pengaplikasian strategi pertempuran dalam permainan
+            perang-perangan/skirmish (war game) jika dalam suatu komunitas. Setiap
+            komunitas yang baik dan bertanggung jawab selalu memiliki kode etik tersendiri,
+            tetapi memiliki kesamaan prinsip demi keamanan dan kelangsungan hobi ini sendiri. <br> <br>
+            Hobi ini termasuk hobi unik yang berbeda dengan hobi-hobi lainnya. Karena
+            menggunakan alat permainan dan aksesoris lainnya yang merupakan replika dari
+            senjata sebenarnya. Maka jika seseorang tidak bijak dalam memperlakukannya akan
+            dapat merugikan orang lain dan pelaku hobi ini sendiri. <br> <br>
+            # source: https://id.wikipedia.org/wiki/Airsoft
+        </p>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <h1>BANTAI AIRSOFT GUN 2020</h1>
+  </div>
+
+  <!-- Jquery needed -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  <!-- Function used to shrink nav bar removing paddings and adding black background -->
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+
+
+  </script>
+</body>
+
+</html>

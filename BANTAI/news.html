@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon-logo/logo-min.ico" type="image/x-icon">
+  <title>News</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/loading.css">
+  <link rel="stylesheet" type="text/css" href="css/news.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+
+<body>
+  <div class="loader_bg">
+    <div class="loader">
+      <img src="img/icon-logo/loader.png" alt="">
+    </div>
+  </div>
+    <nav class="nav">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">B.A.N.T.A.I</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html" class="active-nav">News</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <span class="navTrigger">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+      </div>
+    </nav>
+
+    <section class="home">
+      <div class="text">
+        <h1>NEWS</h1>
+      </div>
+    </section>
+
+
+    <div class="main">
+      <div class="content-1">
+
+        <a href="news-airsoft.html">
+          <div class="card" style="width: 30rem;">
+            <img src="img/icon-logo/Untitled-5-38.png" class="rounded mx-auto d-block" width="200px">
+            <div class="card-body">
+              <p class="myH2">AIRSOFT GUN</p>
+            </div>
+            <img src="img/news/Airsoft gun.png" class="card-img-top" alt="...">
+          </div>
+        </a>
+
+        <a href="news-sukir.html">
+          <div class="card" style="width: 30rem;">
+            <img src="img/icon-logo/Untitled-5-38.png" class="rounded mx-auto d-block" width="200px">
+            <div class="card-body">
+              <p class="myH2">SUKIR</p>
+            </div>
+            <img src="img/news/Sukir 01.png" class="card-img-top" alt="...">
+          </div>
+        </a>
+
+        <a href="news-kopdar.html">
+          <div class="card" style="width: 30rem;">
+            <img src="img/icon-logo/Untitled-5-38.png" class="rounded mx-auto d-block" width="200px">
+            <div class="card-body">
+              <p class="myH2">KOPDAR</p>
+            </div>
+            <img src="img/news/kopdar 02.png" class="card-img-top" alt="...">
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <h1>BANTAI AIRSOFT GUN 2020</h1>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+      $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+          $('.nav').addClass('affix');
+          console.log("OK");
+        } else {
+          $('.nav').removeClass('affix');
+        }
+      });
+
+
+    </script>
+</body>
+
+</html>
